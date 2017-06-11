@@ -3,15 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Responsive Pratt</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet"> 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<script src="https://use.fontawesome.com/5cf616ccce.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	<section class="first-section img-responsive">
+	<section class="first-section">
 		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
+			<div class="container-fluid">	
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
 						<span class="sr-only">Menu</span>
@@ -29,17 +29,77 @@
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
-			</div>
+			</div>	
 		</nav>
-		<div class="container">
+	</section>
+	<header class="program">
+		<div class="container-fluid" id="start">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"></div>
-					<h1>Welcome to Pratt</h1>
-					<h2>Show your product with this handsome theme.</h2>
-					<img src="assets/img/app-bg.png">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+					<h1 class="title">Welcome to <b>Pratt</b></h1>
+					<h2 class="subtitle">Show your product with this handsome theme.</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="hidden-lg hidden-md col-xs-12">
+					<h4>Amazing results</h3>
+					<p class="textheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<img src="assets/img/app-bg.png" class="img-responsive">
+				</div>
+			</div>
+			<div class="row">
+				<div class="hidden-lg hidden-md col-xs-12">
+					<h4>Awesome design</h3>
+					<p class="textheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+		</div>	
+	</header>
+	<section class="second-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+					<h2>Designed To Excel</h2>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+					<img src="assets/img/intro01.png">
+					<h3>Community</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+					<img src="assets/img/intro02.png">
+					<h3>Schedule</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+					<img src="assets/img/intro03.png">
+					<h3>Monitoring</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+					<hr>
+				</div>
+				<div class="col-xs-12 text-center">
+					<h2>What's New?</h2>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<img src="assets/img/mobile.png" class="img-responsive">
+				</div>
+				<div class=" textbox col-lg-6 col-md-6 col-sm-6 col-xs-12" text-right>
+					<h3 class="callipso">Some Features</h3>
+					<h5 class="callipso">First Class Desing</h5>
+					<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<h5 class="callipso">Retina Ready Theme</h5>
+					<h5 class="callipso">Awesome Support</h5>
+					<h5 class="callipso">Responsive Desing</h5>
+				</div>
 			</div>
 		</div>
-	</section>	
+	</section>
 <!-- Script JS -->
 	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
