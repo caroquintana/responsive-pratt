@@ -11,6 +11,20 @@
 .navbar{
 	font-size: 17px;
 }
+a.navbar-header {
+	margin-left: 100px;
+	color: grey;
+	font-weight: 900;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.navbar-nav{
+	margin-right: 60px;
+}
+
+.navbar-toggle{
+    margin-top: 23px;
+}
 
 header{
 	height: 100%;
@@ -94,6 +108,9 @@ img.laptop{
 	height: 100%;
 	color: #fff;
 }
+.fourcontainer{
+	margin-left: 68px;
+}
 form{
 	margin: 20px;
     margin-right: 100px;
@@ -101,4 +118,11 @@ form{
 
 input.boxtext{
 	height: 77px;
+}
+
+footer{
+	background-color: #222222;
+	color: #fff;
+	width: 100%;
+	height: auto;
 }
