@@ -66,3 +66,39 @@ h5.callipso{
 	text-align: left;
 	line-height: 27px;
 }
+
+h2 {
+	font-size: 30px;
+	margin-top: 48px;
+	margin-bottom: 39px;
+}
+
+/*THIRD SECTION*/
+.third-section{
+	background-color: #2c3e50;
+	padding: 5em 0;
+	text-align: center;
+	height: 100%;
+}
+h2.thirdtitle{
+	color: #fff;
+}
+img.laptop{
+	max-width: 62%;
+}
+
+.four-section{
+	background-color: #2F2F2F;
+	padding: 5em 0;
+	text-align: left;
+	height: 100%;
+	color: #fff;
+}
+form{
+	margin: 20px;
+    margin-right: 100px;
+}
+
+input.boxtext{
+	height: 77px;
+}
