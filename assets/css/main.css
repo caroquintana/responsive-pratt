@@ -1,0 +1,23 @@
+/*NAV*/
+*{
+	font-family: 'Lato', sans-serif;
+	list-style: none;
+}
+
+.navbar{
+	font-size: 17px;
+}
+
+/*FIRST SECTION*/
+.first-section{
+	background-color: #2c3e50;
+	height: 100vh;
+	padding: 5em 0;
+	text-align: center;
+	height: 100vh;
+}
+
+h1{
+	color: #fff;
+	font-size: 50px;
+}
